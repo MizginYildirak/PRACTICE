@@ -1,0 +1,161 @@
+html {
+  height: 100vh;
+  font-size: 16px;
+}
+
+body {
+  background-color: rgba(13, 26, 45, 255);
+  height: 100%;
+  width: 100%;
+  font-family: "Outfit", sans-serif;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.card {
+  align-items: center;
+  border: red;
+  background-color: rgba(21, 39, 63, 255);
+  height: 36rem;
+  width: 20rem;
+  border-radius: 10px;
+  box-shadow: 0 0 20px black;
+  padding: 1rem;
+}
+
+.image {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.equ {
+  color: white;
+  font-weight: 700;
+  font-size: x-large;
+  display: block;
+}
+
+.p2 {
+  font-size: 1.1rem;
+  margin: 1.2rem;
+  margin-left: 0;
+}
+
+.between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+  margin: 1.2rem 0px;
+}
+
+.color {
+  color: hsl(215, 51%, 70%);
+}
+
+p {
+  display: inline;
+}
+
+.ETH {
+  color: hsl(178, 100%, 50%);
+  font-weight: bold;
+}
+
+hr {
+  height: 1px;
+  border: none;
+  background-color: hsl(215, 32%, 27%);
+}
+
+.avatar {
+  border: 1px solid white;
+  border-radius: 100px;
+  height: 3rem;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+}
+
+.bottom img {
+  width: 3rem;
+  margin-right: 0.5rem;
+}
+
+.bottom p {
+  font-size: 1rem;
+  margin-left: 0.4rem;
+}
+
+.jules {
+  margin: 1.2rem;
+  font-size: larger;
+}
+
+.name {
+  font-weight: bold;
+  color: white;
+}
+
+.name:hover,
+.equ:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+
+.topimage {
+  position: relative;
+}
+
+.hover {
+  width: 100%;
+  background-color: hsl(178, 100%, 50%);
+  opacity: 0.8;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.topimage:hover > .hover {
+  cursor: pointer;
+  display: flex;
+}
+
+/* ! Media Queries */
+
+@media screen and (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 12px;
+  }
+
+  .card {
+    height: 37rem;
+  }
+
+}
+
+

@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./[https://raw.githubusercontent.com/MizginYildirak/PRACTICE/main/huddle-landing-page-with-single-introductory-section-master/images/SharedScreenshot.jpg])
+![](./https://raw.githubusercontent.com/MizginYildirak/PRACTICE/main/huddle-landing-page-with-single-introductory-section-master/images/SharedScreenshot.jpg)
 
 ## My process
 
@@ -42,4 +42,4 @@ I learned how to apply Responsive Web Design to different screen sizes.
 
 - Website - [Mizgin Yıldırak](https://github.com/MizginYildirak)
 
-
+See demo page [Here](https://mizginyildirak.github.io/huddlepage/)

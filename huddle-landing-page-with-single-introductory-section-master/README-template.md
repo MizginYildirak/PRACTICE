@@ -26,8 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./[https://raw.githubusercontent.com/MizginYildirak/PRACTICE/main/huddle-landing-page-with-single-introductory-section-master/images/SharedScreenshot.jpg]
-
+![](./[https://raw.githubusercontent.com/MizginYildirak/PRACTICE/main/huddle-landing-page-with-single-introductory-section-master/images/SharedScreenshot.jpg])
 
 ## My process
 

@@ -1,0 +1,368 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 400;
+  background-color: hsl(257, 40%, 49%);
+  background-image: url(./images/bg-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 100%;
+}
+
+.main {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo {
+  height: 3rem;
+  margin: 40px 70px 60px;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.hero-text {
+  margin-top: 3rem;
+
+  width: 40%;
+  color: rgb(211, 211, 211);
+  font-size: 1rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.3;
+}
+
+button {
+  color: hsl(257, 40%, 49%);
+  padding: 0.8rem 3rem;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 0px 0.3px 5px black;
+}
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.bottom {
+  width: 25%;
+  float: right;
+}
+
+.social {
+  margin-left: 5%;
+}
+
+.social a i {
+  color: white;
+  font-size: 18px;
+  position: relative;
+}
+
+.social a {
+  margin-left: 2rem;
+}
+
+.social a:not(:first-child) {
+  margin-left: 2rem;
+}
+
+.social a i::after {
+  content: "";
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  left: -10px;
+  bottom: -8px;
+  right: 5px;
+}
+
+.social a:nth-child(2) {
+  margin-left: 2.4rem;
+}
+
+.social a:hover i {
+  color: hsl(300, 69%, 71%);
+}
+
+.social a i:hover::after {
+  border-color: hsl(300, 69%, 71%);
+}
+
+@media only screen and (max-width: 1200px) {
+  .hero-img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    height: 2rem;
+    margin: 40px 40px 60px;
+  }
+  .hero-text {
+    margin-top: 1rem;
+
+    width: 40%;
+    color: rgb(211, 211, 211);
+  }
+
+  .hero-text p {
+    font-size: 1rem;
+  }
+}
+
+/* @media only screen and (max-width: 1000px) {
+ 
+
+
+  .hero-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    height: 1.5rem;
+    margin: 30px 30px 40px;
+  }
+
+  .main {
+    margin: 0 2rem;
+    display: block;
+    align-items: center;
+  }
+
+  .hero-text {
+    margin: 0 auto !important;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .hero-text p {
+    width: 100%;
+    font-size: small;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  button {
+    color: hsl(257, 40%, 49%);
+    padding: 0.5rem 3.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0.3px 2px black;
+  }
+} */
+
+@media only screen and (max-width: 960px) {
+  .main {
+    align-items: center;
+  }
+
+  .hero-img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .logo {
+    height: 2rem;
+    margin: 40px 40px 60px;
+  }
+  .hero-text {
+    margin-bottom: 9rem;
+
+    width: 40%;
+    color: rgb(211, 211, 211);
+  }
+
+  .hero-text h1 {
+    font-size: 1.2rem;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-img {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+
+  .hero-img img {
+    width: 100%;
+    align-items: center;
+  }
+
+  .logo {
+    height: 1.5rem;
+    margin: 30px 30px 40px;
+  }
+
+  .main {
+    margin: 0 2rem;
+    display: block;
+    align-items: center;
+  }
+
+  .hero-text {
+    margin: 0 auto !important;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text h1 {
+    margin: 0;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .hero-text p {
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  button {
+    color: hsl(257, 40%, 49%);
+    padding: 0.5rem 3.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0.3px 2px black;
+  }
+
+  .bottom {
+    float: none;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 5%;
+  }
+
+  .social {
+    margin: 0;
+  }
+
+  .social a {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .hero-img img {
+    width: 100%;
+    align-items: center;
+  }
+
+  .logo {
+    height: 1.5rem;
+    margin: 30px 30px 40px;
+  }
+
+  .main {
+    margin: 0 2rem;
+    display: block;
+    align-items: center;
+  }
+
+  .hero-text {
+    margin: 0 auto !important;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text h1 {
+    margin: 0;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .hero-text p {
+    width: 100%;
+    font-size: small;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  button {
+    color: hsl(257, 40%, 49%);
+    padding: 0.5rem 3.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0px 0.3px 2px black;
+  }
+
+  .bottom {
+    float: none;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 5%;
+  }
+
+  .social {
+    margin: 0;
+  }
+
+  .social a {
+    margin: 0;
+  }
+}

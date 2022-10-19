@@ -7,7 +7,6 @@ body {
   background-color: black;
   margin: 0;
   padding: 0;
-
   font-size: 22px;
   box-sizing: border-box;
   color: seashell;
@@ -68,7 +67,6 @@ li {
 .tea-types {
   display: flex;
   flex-flow: row wrap;
-
   text-align: center;
   margin: auto;
   justify-content: center;

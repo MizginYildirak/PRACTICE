@@ -55,8 +55,6 @@
 - CSS Properties for Texts-Font Families-Links
 
 
--
-
 ## Notes
 
 - You can use HTML,and CSS to complete this project.

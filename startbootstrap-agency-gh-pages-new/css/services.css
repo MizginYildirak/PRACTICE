@@ -1,0 +1,57 @@
+.services {
+  text-align: center;
+  margin: 4rem;
+}
+
+.services-cover {
+  width: 100%;
+}
+
+.services h1 {
+  font-size: 40px;
+}
+
+.services h2 {
+  margin-top: 1rem;
+  font-size: 30px;
+}
+
+.services p {
+  line-height: 30px;
+  margin-top: 1rem;
+  color: rgb(122, 119, 125);
+  font-size: larger;
+}
+
+.services-icons {
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  gap: 2rem;
+}
+
+.cart i {
+  padding: 1.8rem;
+  border-radius: 50%;
+  background-color: #ffca0b;
+}
+
+.fa-cart-shopping {
+  font-size: 60px;
+  color: white;
+  width: 8.12rem;
+}
+
+.fa-laptop {
+  font-size: 60px;
+  color: white;
+  width: 8.12rem;
+}
+
+.fa-lock {
+  font-size: 60px;
+  color: white;
+  width: 8.12rem;
+}

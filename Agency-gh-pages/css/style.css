@@ -385,13 +385,13 @@ nav #menu {
 
 @media screen and (max-width: 436x) {
   .heading-one {
-    font-size: 2rem;
+    font-size: 1rem;
     font-style: italic;
     color: white;
   }
 
   .heading-two {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 900;
     color: white;
     margin-top: 1.5rem;
@@ -399,4 +399,6 @@ nav #menu {
   }
 }
 
-@media screen and (max-width: 436px) 
+@media screen and (max-width: 436px) {
+     
+}

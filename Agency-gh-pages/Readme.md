@@ -30,6 +30,8 @@ I learned how to work with different sections and how to file them seperately.
 
 - CSS Properties for Texts-Font Families-Links
 
+- Mobile-first workflow
+
 ## Notes
 
 - You can use HTML,and CSS to complete this project.

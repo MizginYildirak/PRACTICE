@@ -383,7 +383,7 @@ nav #menu {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 436x) {
   .heading-one {
     font-size: 2rem;
     font-style: italic;
